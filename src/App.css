@@ -1,0 +1,59 @@
+.header{
+    margin-top: 5%;
+    alignment: center;
+    font-size: 10px;
+    font-weight: bold;
+
+
+}
+.header li{
+    display: inline;
+    float: right;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.header a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer{
+    margin-bottom: 5%;
+    alignment: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: beige;
+}
+.footer li{
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+}
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+.footer a:hover{
+    color: blue;
+}
+.footer a:visited{
+    color: black;
+}
+.logo{
+    width: auto;
+    height: 300px;
+    margin-left: 20%;
+    margin-right: 20;
+    background-image:url(./src/assets/google.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.search{
+   align-items: center;
+   margin-right: 40;
+}
